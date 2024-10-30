@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header style="background-color: brown;">
+        <h3>Welcome to my Portfolio</h3>
+        <div id="headerContent"></div>
+    </header>
+
+    
+    <main>
+        <nav>
+            <ul>
+                <li><a href="aboutme.html" onclick="loadContent('aboutme.html')">About Me</a></li>
+                <li><a href="education.html" onclick="loadContent('education.html')">Education</a></li>
+                <li><a href="project.html" onclick="loadContent('project.html')">Projects</a></li>
+                <li><a href="additionalinfo.html" onclick="loadContent('additionalinfo.html')">Additional Info</a></li>
+                <li><a href="contactme.html" onclick="loadContent('contactme.html')">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        
+        <section id="contentSection">
+            <iframe id="contentFrame" src="aboutme.html"></iframe>
+        </section>
+    </main>
+
+    
+    <footer style="background-color: brown;">
+        <div id="footerContent"></div>
+        <hr>
+        author: Surendar B <br>
+        &copy; copyright reserved <br>
+        <small><a href="surendarbalaji2006@gmail.com">surendarbalaji2006@gmail.com</a></small>
+    </footer>
+</body>
+</html>
